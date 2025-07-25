@@ -2,49 +2,51 @@
 
 σπονδή:
     stems:
-        noun: σπονδη
+        F: σπονδη
 
 σοφία:
     stems:
-        noun: σοφία
+        F: σοφία
 
 τόλμα:
     stems:
-        noun: τολμα
+        F: τολμα
 
 ὑβριστής:
     stems:
-        noun: ὑβριστη
+        M: ὑβριστη
 
 νεανίας:
     stems:
-        noun: νεανία
+        M: νεανία
 
 θεός:
     stems:
-        noun: θεο
+        M: θεο
+        F: θεο
 
 νόσος:
     stems:
-        noun: νοσο
+        F: νοσο
 
 δεῖπνον:
     stems:
-        noun: δειπνο
+        N: δειπνο
 
 μάρτυς:
     stems:
-        noun: μαρτυρ
+        M: μαρτυρ
+        F: μαρτυρ
     stem_overrides:
         - ["DPM", "μαρτυ"]
 
 νύξ:
     stems:
-        noun: νυκτ
+        F: νυκτ
 
 ἀνήρ:
     stems:
-        noun: ἀνδρ
+        M: ἀνδρ
     stem_overrides:
         - ["NPM", "ἄνδρ"]  # just for accent
         - ["A[SP]M", "ἄνδρ"]  # just for accent
@@ -53,56 +55,56 @@
 
 ὕδωρ:
     stems:
-        noun: ὑδατ
+        N: ὑδατ
     forms:
         NSN: ὕδωρ
         ASN: ὕδωρ
 
 τριήρης:
     stems:
-        noun: τριηρεσ
+        F: τριηρεσ
 
 Περικλῆς:
     stems:
-        noun: Περικλεεσ
+        M: Περικλεεσ
 
 ἔτος:
     stems:
-        noun: ἐτεσ  # @@@
+        N: ἐτεσ  # @@@
 
 γῆρας:
     stems:
-        noun: γηρασ
+        N: γηρασ
     forms:
         DSN: γήραι  # just for accent @@@ (accent is placed pre-contraction)
 
 πόλις:
     stems:
-        noun: πολ{i}
+        F: πολ{i}
 
 πρέσβυς:
     stems:
-        noun: πρεσβ{u}
+        M: πρεσβ{u}
 
 ἄστυ:
     stems:
-        noun: ἀστ{u}
+        N: ἀστ{u}
 
 βασιλεύς:
     stems:
-        noun: βασιλε{u2}
+        M: βασιλε{u2}
 
 ἰχθύς:
     stems:
-        noun: ἰχθυ
+        M: ἰχθυ
 
 ναῦς:
     stems:
-        noun: ναυ
+        F: ναυ
 
 Ζεύς:
     stems:
-        noun: Ζευ
+        M: Ζευ
     stem_overrides:
         - ["[GDA]SM", "Δι"]
     accents:
